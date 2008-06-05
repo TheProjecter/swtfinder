@@ -1,0 +1,9 @@
+= What is automatic UI testing? =
+ 
+The best answer for this question i know is:
+
+automatic UI testing is to do the following things automatically
+
+  * Finder special UI component automatically
+  * Drive actions on the found component automatically
+  * And validate components after the UI action automatically.
