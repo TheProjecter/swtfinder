@@ -4,6 +4,8 @@ The best answer for this question i know is:
 
 automatic UI testing is to do the following things automatically
 
+http://swtfinder.googlecode.com/files/UITesting.GIF
+
   * Finder special UI component automatically
   * Drive actions on the found component automatically
   * And validate components after the UI action automatically.
@@ -21,5 +23,3 @@ SWTFinder can be used used to:
 and facilitate in:
   * And validate components after the UI action automatically.
 since before validate some ui component , your must find it first!
-
-
