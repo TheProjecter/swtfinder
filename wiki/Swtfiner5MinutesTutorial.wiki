@@ -9,17 +9,40 @@ The Eclipse outline view displays an outline of a structured file that is curren
 
 When there is no editor page in current workbench page,the view looks like the following picture. 
 
-  [http://swtfinder.googlecode.com/files/Outlineview.JPG] 
+  [http://swtfinder.googlecode.com/files/outline.GIF] 
+
+Now, we will try to write a junit plug-in test to test this scenario from UI.
 
 ===Test case for this===
+How to do this?
 
-[http://swtfinder.googlecode.com/files/Locate.JPG]
+test case 1:
+  * Precondition: Outline view is not opened, there is no editor page in editor area.
+  * Actions: Open the outline view
+  * Postcondition: outline view appears as the above picture.  
 
+test case 2: ...
 
-[http://swtfinder.googlecode.com/files/Swtfinderview.JPG] 
+test case 3: ...
+
+We will implement the test case 1 as junit plug-in test. 
+
+==Use UI tool plug-in for SWTFinder==
+
+first, use ui plug-in tool of swtfinder to analysis the controls in outline view(download and install it first).
+
+Following the following way to analyze the initial state of outline view.
+  * close all editors in current eclipse if there is any
+  * open the outline view by click main menu  (window-->Show View-->Outline)
+  * focus on view to be analyzed to make it the active part in current active workbench page, here is the outline view.
+  * click the "analysis" main toolbar item [http://swtfinder.googlecode.com/files/toolitem.GIF]  to analysis the current active part.
+
+the above picture lists the control tree of the outline view.
+
+[http://swtfinder.googlecode.com/files/swtfinderview.GIF] 
  
+ 
+[http://swtfinder.googlecode.com/files/locate.GIF] 
 
-[http://swtfinder.googlecode.com/files/AnalysisToolItem.JPG] 
-
-af
+ 
 ====
