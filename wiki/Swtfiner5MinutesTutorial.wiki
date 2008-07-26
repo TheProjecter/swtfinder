@@ -9,4 +9,13 @@ The Eclipse outline view displays an outline of a structured file that is curren
 
 When there is no editor page in current workbench page,the view looks like the following picture. 
 
+http://swtfinder.googlecode.com/files/Outlineview.JPG
+
+http://swtfinder.googlecode.com/files/Locate.JPG
+
+http://swtfinder.googlecode.com/files/Swtfinderview.JPG
+
+http://swtfinder.googlecode.com/files/AnalysisToolItem.JPG
+
+
 ====
