@@ -54,5 +54,20 @@ Let's locate the label control with text "An outline is not available"
 
 
 ==Use the core API in  test class==
+Actually, the generated code just invokes the core API to locate the control. Users can write such API manually. Core API provides many different ways to locate a control in eclipse view/editor. The generated code is just one of these powerful APIs.
 
- 
+{{{
+Label returnControl=
+(Label)Finder.getDefault().findIndexByClassInEclipseView(
+"org.eclipse.ui.views.ContentOutline",Label.class,1);
+}}}
+
+The API can be used directly in you java program,and this API and other API in core plug-in can be invoked both in UI thread and non-UI thread.
+
+An example project is created to implement the first test case to test the outline view. Download the project at [http://swtfinder.googlecode.com/files/com.googlecode.swtfinder.example1.zip here]. 
+
+Unzip it and import this project into eclipse with swtfinder core plug-in installed. 
+
+Read the source code of {{{TestOutlineView.java}}} to figure out how to use the generated code to locate control in java program.
+
+  
