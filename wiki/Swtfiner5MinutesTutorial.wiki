@@ -1,2 +1,12 @@
 = 5 Minutes Tutorial =
- 
+==Introduction==
+This 5 minutes tutorial shows how to use swtfinder.
+
+In this tutorial, swtfinder is used to help testing the eclipse outline view.
+
+==Eclipse Outline View==
+The Eclipse outline view displays an outline of a structured file that is currently open in the editor area.
+
+When there is no editor page in current workbench page,the view looks like the following picture. 
+
+====
