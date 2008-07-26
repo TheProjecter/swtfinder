@@ -11,9 +11,12 @@ When there is no editor page in current workbench page,the view looks like the f
 
 http://swtfinder.googlecode.com/files/Outlineview.JPG
 
+
 http://swtfinder.googlecode.com/files/Locate.JPG
 
+
 http://swtfinder.googlecode.com/files/Swtfinderview.JPG
+
 
 http://swtfinder.googlecode.com/files/AnalysisToolItem.JPG
 
