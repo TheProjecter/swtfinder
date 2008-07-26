@@ -37,12 +37,20 @@ Following the following way to analyze the initial state of outline view.
   * focus on view to be analyzed to make it the active part in current active workbench page, here is the outline view.
   * click the "analysis" main toolbar item [http://swtfinder.googlecode.com/files/toolitem.GIF]  to analysis the current active part.
 
-the above picture lists the control tree of the outline view.
+the following picture lists the control tree of the outline view.
 
 [http://swtfinder.googlecode.com/files/swtfinderview.GIF] 
  
- 
+let's locate the label control with text "An outline is not available" 
+  * click at any column at the row shows the label control (here it is row with index "5")
+  * right click to show the popup menu
+  * click "Find" in the popup menu to bring up the Locate dialog.
+  * Choose the return type and find type both to Label
+  * Click the find button on this dialog
+  * java code will automatically be generated in the text field on the dialog. 
+
 [http://swtfinder.googlecode.com/files/locate.GIF] 
 
+==Use the core API in  test class==
+
  
-====
