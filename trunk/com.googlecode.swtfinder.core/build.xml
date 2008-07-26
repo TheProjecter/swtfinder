@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="plugin" name="t4eclipse">
+	<target name="plugin">
+		<delete file="./com.googlecode.swtfinder.core_0.1.jar" />
+		<zip destfile="./com.googlecode.swtfinder.core_0.1.jar">
+			<fileset dir="bin" />
+			<zipfileset dir="META-INF" prefix="META-INF" />
+		</zip>
+	</target>
+	
+<!--
+	<target name="jar">
+		<delete file="./swtfinder_core_library_0.1.jar" />
+		<zip destfile="./swtfinder_core_library_0.1.jar">
+			<fileset dir="bin">
+				<exclude name="**/Activator*" />
+			</fileset>
+		</zip>
+	</target>
+-->
+
+</project>
